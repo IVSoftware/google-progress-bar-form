@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>google_progress_bar_form</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CefSharp.WinForms.NETCore" Version="110.0.300" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
+
+</Project>
